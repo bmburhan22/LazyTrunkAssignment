@@ -18,13 +18,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bmburhan.LazyTrunkAssignment"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },    "androidStatusBar": {
+    },
+    "androidStatusBar": {
       "barStyle": "light-content",
       "backgroundColor": "#00000000"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0179fe82-7f32-4dae-875f-94352bf9da38"
+      }
     }
   }
 }

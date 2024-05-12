@@ -1,10 +1,9 @@
-import { StatusBar, Pressable, View, Text, FlatList, ScrollView, ImageBackground } from 'react-native';
+import { StatusBar, Pressable, View, Text, ScrollView, ImageBackground } from 'react-native';
 import styles from '../styles';
-import { FontAwesome, FontAwesome6, Ionicons, MaterialCommunityIcons, MaterialIcons } from '@expo/vector-icons';
+import { Ionicons, MaterialIcons } from '@expo/vector-icons';
 import Card from '../components/Card';
 import filters from '../constants/filters';
 import FilterCard from '../components/FilterCard';
-import { BlurView } from 'expo-blur';
 import bg from '../assets/bg.png';
 export default DeckScreen = ({ navigation }) => {
     return (

@@ -1,10 +1,6 @@
 import { StatusBar, Pressable, View, Text, FlatList, ScrollView, Switch, ImageBackground } from 'react-native';
 import styles from '../styles';
 import { FontAwesome, FontAwesome6, Ionicons, MaterialCommunityIcons, MaterialIcons, Octicons } from '@expo/vector-icons';
-import Card from '../components/Card';
-import filters from '../constants/filters';
-import FilterCard from '../components/FilterCard';
-import SettingsCard from '../components/SettingsCard';
 import { useState } from 'react';
 import IconButton from '../components/IconButton';
 import bg from '../assets/bg.png';
